@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Registration</h1>
+
+    <for action="request.php">method="get">
+        <label for="name">Student Name</label>
+        <imput type="text"name="stu_name"id="name">
+            <br><br>
+            <label for="email" >Student Email</label>
+            <input type="email" name="stu_email"id="email">
+            <br><br>
+            <label for="password" >password</label>
+            <input type="number" name="stu_passwors"id="password">
+            <br><br>
+            <label for="phone" >Student phone</label>
+            <input type="number" name="stu_phone"id="phone">
+            <br><br>
+            <label for="dob" >Date of Birth</label>
+            <input type="date" name="stu_dob"id="dob">
+            <br><br>
+            <label for="passport" >passport Photo</label>
+            <input type="file" name="stu_passport"id="passport">
+            <br><br>
+          <label for="">Gender</label>
+          <br><br>
+          <input type="radio"name="Gender"id="male"value="male"><labal for="male">Male</labal>
+          <input type="radio"name="Gender"id="male"value="female"><labal for="female">Male</labal>
+          <br><br>
+         <label for="year">Year</label>
+         <select name="stu_year"id="year">
+             <option value="">Choose Year</option>
+             <option value="1">First Year</option>
+             <option value="2">Second Year</option>
+             <option value="3">Third Year</option>
+
+         </select>
+         <br><br>
+      <label for="" >Habbeies</label>  
+      <br><br>
+<input type="checkbox"name="travelling" id="travelling" value="travelling"><labal
+for="travelling">travelling</labal>
+<input type="checkbox"name="gaming" id="gaming" value="gaming"><labal
+for="Gaming">travelling</labal>
+<br><br>
+<label for="address">Address</label>
+<textarea name="stu_address" id="address"cols="50" rows="10"></textarea>
+<br><br>
+<input type="range"name="" id="">
+<input type="color"name="" id="">
+<input type="time"name="" id="">
+<br><br>
+
+            <button type="submil">Save</button>
+        </imput>
+    </for>
+</body>
+</html>
